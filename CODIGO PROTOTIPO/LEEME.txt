@@ -1,0 +1,28 @@
+# Prototipo: Mercado Campesino Digital de Yopal
+
+Este prototipo de escritorio sirve para mostrar una idea visual y funcional básica del proyecto. Está hecho únicamente con Java Swing: no necesita Maven, Spring Boot ni MySQL.
+
+## Requisitos
+- JDK instalado (Java 17 o superior; probado para compilar con versiones modernas de Java).
+
+## Ejecutar desde Visual Studio Code
+1. Extrae la carpeta del ZIP.
+2. Abre la carpeta en VS Code.
+3. Abre Terminal > Nueva terminal.
+4. Ejecuta:
+
+```powershell
+javac MercadoCampesinoYopal.java
+java MercadoCampesinoYopal
+```
+
+Si `javac` no se reconoce, comprueba que instalaste un **JDK** y no solamente un entorno de ejecución (JRE).
+
+## Qué puedes mostrar
+- Pantalla de bienvenida con identidad visual verde.
+- Catálogo de productos campesinos de ejemplo y precios demostrativos.
+- Selección de productos con botones interactivos.
+- Ventana informativa sobre productores locales.
+
+## Alcance
+Los nombres, lugares y precios son ejemplos ficticios para la demostración. Esta versión no guarda datos en una base de datos, no procesa pagos ni crea reservas reales. Es un prototipo visual de escritorio; la versión completa web con Spring Boot, Thymeleaf y MySQL se desarrolla por separado.
